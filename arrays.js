@@ -8,4 +8,10 @@ function sumOfTripleEvens(evenNumber){
 const evenArray = theArray.filter(sumOfTripleEvens)
 console.log(evenArray)
 
+function multiplyEvenNumber(theNumber){
+    return theNumber * 3;
+}
+
+const multipliedEvens = evenArray.map(multiplyEvenNumber)
+console.log(multipliedEvens)
 
