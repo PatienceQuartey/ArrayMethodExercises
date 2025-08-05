@@ -1,5 +1,5 @@
-const theArray = ["A", "B", "C"]
+let vegArray = ["Lettuce", "Onion", "Beetroot", "Carrot"]
 
-theArray.splice(0, 3, "Cat", "Dog", "Goldfish")
+let sliceVegArray = vegArray.slice(0, 2)
 
-console.log(theArray)
+console.log(sliceVegArray)
