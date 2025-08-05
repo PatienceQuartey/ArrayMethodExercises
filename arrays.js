@@ -1,7 +1,5 @@
 const theArray = ["A", "B", "C"]
 
-//let remove = theArray.splice(-1, 1)
-//console.log(remove)
+theArray.splice(0, 3, "Cat", "Dog", "Goldfish")
 
-theArray.splice(-1, 0, "S", "T")
 console.log(theArray)
