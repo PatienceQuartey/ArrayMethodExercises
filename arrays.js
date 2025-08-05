@@ -15,3 +15,10 @@ function multiplyEvenNumber(theNumber){
 const multipliedEvens = evenArray.map(multiplyEvenNumber)
 console.log(multipliedEvens)
 
+const combinedTotal = multipliedEvens.reduce(
+    (total, currentItem) => {
+        return total * currentItem
+    }, 1
+)
+
+console.log(combinedTotal)
