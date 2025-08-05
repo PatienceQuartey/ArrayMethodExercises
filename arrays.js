@@ -1,8 +1,11 @@
-let vegArray = ["Lettuce", "Onion", "Beetroot", "Carrot", "Aubergine", "Cassava"];
+const theArray = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
 
-let fruitArray = ["Watermelon", "Apple", "Orange", "Grapes"];
+function sumOfTripleEvens(evenNumber){
+    return evenNumber % 2 == 0;
 
-let concatArray = vegArray.concat(fruitArray);
+}
 
-console.log(concatArray);
+const evenArray = theArray.filter(sumOfTripleEvens)
+console.log(evenArray)
+
 
