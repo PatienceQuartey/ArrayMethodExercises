@@ -1,6 +1,8 @@
-let vegArray = ["Lettuce", "Onion", "Beetroot", "Carrot", "Aubergine", "Cassava"]
+let vegArray = ["Lettuce", "Onion", "Beetroot", "Carrot", "Aubergine", "Cassava"];
 
-let concatArray = vegArray.concat("Plaintain", "Potatoes")
+let fruitArray = ["Watermelon", "Apple", "Orange", "Grapes"];
 
-console.log(concatArray)
+let concatArray = vegArray.concat(fruitArray);
+
+console.log(concatArray);
 
