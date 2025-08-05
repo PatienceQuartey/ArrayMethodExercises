@@ -1,5 +1,6 @@
-let vegArray = ["Lettuce", "Onion", "Beetroot", "Carrot"]
+let vegArray = ["Lettuce", "Onion", "Beetroot", "Carrot", "Aubergine", "Cassava"]
 
-let sliceVegArray = vegArray.slice(-4, -1)
+let concatArray = vegArray.concat("Plaintain", "Potatoes")
 
-console.log(sliceVegArray)
+console.log(concatArray)
+
